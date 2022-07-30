@@ -3,72 +3,61 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Faiz's Personal Site</title>
+  <title>Faiz's Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Faiz dp.jpeg" alt="Faiz profile picture"></td>
-      <td>
-        <h1>Faiz Ahmed</h1>
-        <p><em>A <strong><a href="https://stackoverflow.com/">coder</a></strong> in the making.</em></p>
-        <p>Hi. I am Faiz. A uni student learning to code. I am deeply inspired by the open source community and would love to contribute to it.</p>
-      </td>
-    </tr>
-  </table>
+  <div class="top">
+    <img class="cloud-top" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Faiz.</h1>
+    <h2>A <span><u>code</u></span>r.</h2>
+    <img class="cloud-bottom" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>DPS Roorkee</li>
-    <li>AHS Hzb</li>
-    <li>VIT Chennai</li>
-  </ul>
-  <hr>
-  <h3>Education with dates:</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</td>
-        <th>Study</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015-2018</td>
-        <td>DPS Roorkee</td>
-      </tr>
-      <tr>
-        <td>2019-2020</td>
-        <td>AHS Hzb</td>
-      </tr>
-      <tr>
-        <td>2021-...</td>
-        <td>VIT Chennai</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
+  </div>
 
-  <table cellspacing="10">
-    <tr>
-      <td>Python</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <h3><a href="hobbies.html">My Hobbies</a></h3>
-  <h3><a href="contactme.html">Contact Me</a></h3>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="prof-img" src="images/Faiz dp.jpeg" alt="profilr-img">
+      <h2>Hello.</h2>
+      <p>I'm college student learing to code. I have a keen interest in computers and am trying to learn them from the ground up. I also love fiddling with the best desktop OS out there - <span><strong>Linux</strong></span></p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="coding" src="https://cdn0.iconfinder.com/data/icons/flatico/512/monitor_code__editor-512.png" alt="coding-img">
+        <h3>Coding</h3>
+        <p>I started learing to code when i was 13 years old. I have experience in coding in HTML, CSS, Java, Python, MySQL and am also well versed with the bash shell.</p>
+      </div>
+      <div class="skill-row">
+        <img class="thinking" src="images/brain.png" alt="brain-img">
+        <h3>Critical Thinking</h3>
+        <p>I think a lot... Sometimes more than necessary. I like to analyse situatuions from all anlges and from everyone's perspective. I also tend to question a lot till I understand the topic to it's core.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Love Linux?</h3>
+      <p class="end-p">A fellow linux enthusiast. i see... Hit me up and we can both chat along on how amazing it is... I don't use Arch btw. :(</p>
+      <a class="btn" href="mailto:ahmed@faiz.slmail.me">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://ahmfaiz.github.io/cv/">Website</a>
+    <p>2022 © Faiz Ahmed.</p>
+  </div>
+
 </body>
 
 </html>
